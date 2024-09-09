@@ -1,0 +1,13 @@
+///////base datos 
+
+create database nombrebase
+
+
+///////crear tabla usuario
+create table usuario (
+id int identity(1,1) primary key not null,
+nombre varchar(50) not null,
+apellido varchar(50) not null,
+usuario varchar(50) not null,
+contra varchar(50) not null
+)
